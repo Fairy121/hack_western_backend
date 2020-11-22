@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
-const UserSchema = new Schema({
+const GoalSchema = new Schema({
     title:{
         type:String,
         trim:true,
@@ -16,5 +16,5 @@ const UserSchema = new Schema({
    
 
 })
-const User = Schema.model('User',UserSchema);
-export default User;
+const Goal = Schema.model('User',GoalSchema);
+export default Goal;
